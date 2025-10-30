@@ -26,5 +26,58 @@ AGENT.md
 
 # Ignore coverage reports
 
-
 .idea
+
+# Ignore user download directories and common file paths that cause git status pollution
+# Use relative paths to avoid tracking files outside the project
+../
+../../
+../../../
+../../../../
+../../../../../
+*/Downloads/*
+*/Users/*/*
+*/Users/*/Downloads/*
+*/Users/*/Desktop/*
+*/Users/*/Documents/*
+*/Users/*/Videos/*
+*/Users/*/Music/*
+*/Users/*/Pictures/*
+*/Users/*/OneDrive/*
+Windows/
+avast! sandbox/
+backend/
+hiberfil.sys
+hp/
+java all data/
+logUploaderSettings.ini
+logUploaderSettings_temp.ini
+mnt/
+pagefile.sys
+src/
+swapfile.sys
+tmp/
+xampp/
+*.exe
+*.msi
+*.zip
+*.pdf
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.docx
+*.pptx
+*.csv
+*.xlsx
+*.txt
+*.json
+*.apk
+*.iso
+*.dmg
+*.pkg
+*.deb
+*.rpm
